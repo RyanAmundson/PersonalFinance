@@ -1,0 +1,28 @@
+.dashboard {
+    padding:5px;
+    display:flex;
+    flex-direction:column;
+    align-items:stretch;
+    justify-content: flex-start;
+
+    & > * {
+        margin-bottom:5px;
+    }
+
+
+    .card {
+        mat-card-header {
+            display:flex;
+            flex-direction: column;
+            .title {
+                display:flex;
+                justify-content: space-between;
+                .net-flow {
+                    display:flex;
+                    align-self:center;
+                    justify-self: flex-end;
+                }
+            }          
+        }
+    }
+}
